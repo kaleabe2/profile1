@@ -1,0 +1,63 @@
+body{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(132, 150, 190);
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    border-radius: 50%;
+}
+
+.main-2{
+width: 100%;
+height: 25%;
+background-color: rgb(120, 72, 72);
+text-align: center;
+font-family: 'Times New Roman', Times, serif;
+}
+
+.main-3{
+    text-align: center;
+    gap: 10px;
+    width: 100%;
+    height: 40%;
+    background-color:rgb(132, 150, 190);
+    display: flex;
+
+}
+#box-1{
+    width: 30%;
+    height:80%;
+    margin: 10px;
+    border-radius: 20px;
+    background-image: url(education.jpg);
+    background-repeat: round;
+    background-size: cover;
+    opacity: 0.6;
+}
+#box-2{
+    width: 30%;
+    height: 80%;
+    background-image: url(work.png);
+    margin: 10px;
+    border-radius: 20px;
+    background-repeat: round;
+    opacity: 0.8;
+}
+#box-3{
+    width: 30%;
+    height: 80%;
+    background-image: url(hobby.jpg);
+    margin: 10px;
+    border-radius: 20px;
+    background-repeat: round; 
+    opacity: 0.5;
+}
+#box-4{
+    width: 100%;
+    height: 10%;
+    background-color: rgb(132, 150, 190);
+}
